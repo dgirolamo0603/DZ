@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200" role="img" aria-label="DZ logo">
+  <rect width="100%" height="100%" fill="#0b3d91" rx="16"/>
+  <circle cx="80" cy="100" r="48" fill="#67a0ff" />
+  <text x="170" y="120" font-family="Verdana,Arial" font-size="64" fill="#fff">DZ</text>
+  <text x="170" y="150" font-family="Verdana,Arial" font-size="14" fill="#dbe9ff">demo logo</text>
+</svg>

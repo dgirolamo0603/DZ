@@ -12,6 +12,50 @@
     <h1>Hello, Python!</h1>
     <h1>Hello, Python!</h1>
     <h2>GIT</h2>
+    <!-- Example images: external SVG files in images/ and an inline SVG -->
+    <figure>
+        <img src="images/logo.svg" alt="Logo" width="200" />
+        <figcaption>External SVG: `images/logo.svg`</figcaption>
+    </figure>
+
+    <!-- Inline SVG (no external file needed) -->
+    <figure>
+        <svg width="220" height="120" viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" role="img"
+            aria-label="Inline illustration">
+            <rect width="220" height="120" rx="12" fill="#f0f4ff" />
+            <circle cx="60" cy="60" r="30" fill="#7b9cff" />
+            <rect x="110" y="30" width="90" height="60" rx="8" fill="#ffd580" />
+            <text x="110" y="70" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">Inline SVG</text>
+        </svg>
+        <figcaption>Inline SVG illustration</figcaption>
+    </figure>
+
+    <figure>
+        <img src="images/placeholder.svg" alt="Placeholder" width="300" />
+        <figcaption>External SVG: `images/placeholder.svg`</figcaption>
+    </figure>
+
+    <!-- Football-themed images -->
+    <section aria-label="Football images">
+        <h3>Football Gallery</h3>
+        <div style="display:flex;gap:20px;flex-wrap:wrap;align-items:center">
+            <figure style="margin:0">
+                <img src="images/football-ball.svg" alt="Football ball" width="160" />
+                <figcaption>Football ball</figcaption>
+            </figure>
+
+            <figure style="margin:0">
+                <img src="images/football-field.svg" alt="Football field" width="320" />
+                <figcaption>Football field</figcaption>
+            </figure>
+
+            <figure style="margin:0">
+                <img src="images/football-trophy.svg" alt="Football trophy" width="140" />
+                <figcaption>Football trophy</figcaption>
+            </figure>
+        </div>
+    </section>
+
 </body>
 
 </html>

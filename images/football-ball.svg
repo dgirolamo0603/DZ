@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300" role="img" aria-label="Football ball">
+  <defs>
+    <style> .s{fill:#fff;stroke:#111;stroke-width:6}</style>
+  </defs>
+  <circle cx="150" cy="150" r="120" fill="#fff" stroke="#000" stroke-width="6" />
+  <!-- pentagons -->
+  <g transform="translate(150,150) scale(1)">
+    <polygon points="0,-70 32,-32 19,38 -19,38 -32,-32" fill="#111" />
+    <g transform="rotate(72)"><polygon points="0,-70 32,-32 19,38 -19,38 -32,-32" fill="#111" /></g>
+    <g transform="rotate(144)"><polygon points="0,-70 32,-32 19,38 -19,38 -32,-32" fill="#111" /></g>
+    <g transform="rotate(216)"><polygon points="0,-70 32,-32 19,38 -19,38 -32,-32" fill="#111" /></g>
+    <g transform="rotate(288)"><polygon points="0,-70 32,-32 19,38 -19,38 -32,-32" fill="#111" /></g>
+  </g>
+</svg>
